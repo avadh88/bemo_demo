@@ -14,8 +14,8 @@ class dbexportcontroller extends Controller
     public function index()
     {
         $databaseName = env('DB_DATABASE', 'bemo_demo');
-        $userName     = env('DB_DATABASE', 'root');
-        $password     = env('DB_DATABASE', 'Admin@123');
+        $userName     = env('DB_USERNAME', 'root');
+        $password     = env('DB_PASSWORD', 'Admin@123');
         MySql::create()
         ->setDbName($databaseName)
         ->setUserName($userName)
