@@ -1,0 +1,52 @@
+@import "variable.scss";
+* {
+    box-sizing: border-box;
+}
+// .btn-primary2{
+//     background-color: $bg_color_blue;
+// }
+.header_action{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.column_list{
+    display: flex;
+}
+.vm--modal{
+    padding:0 15px;
+    height: 345px !important;
+}
+.card_raw,.column_raw{
+    width: 100%;
+    margin-bottom: 10px;
+    label{
+        width: 100%;
+        display: block;
+    }
+    input,select,textarea{
+        width: 100%;
+        display: block;
+        padding: 10px;
+    }
+
+}
+.btn{
+    padding: 10px;
+    text-align: center;
+}
+.mar_right_10{
+    margin-right: $mar_right_10;
+}
+.float_right
+{
+  float: $direction_right;
+}
+.column_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body
+{
+    background-color: $blue;
+}

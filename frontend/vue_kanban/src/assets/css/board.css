@@ -1,0 +1,12 @@
+.board {
+    overflow: auto;
+    padding: 20px;
+    display: flex;
+    flex: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 118px;
+    bottom: 33px;
+    padding-right: 15px;
+  }
